@@ -20,9 +20,9 @@ enum {
 //Class map_altis : config.bin{
 class CfgPatches
 {
-	class alpine
+	class YOUR_PROJECT_NAME
 	{
-		units[] = {"alpine"};
+		units[] = {"YOUR_PROJECT_NAME"};
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"A3_Data_F","A3_Roads_F","A3_Structures_F","A3_Map_Data"};
@@ -64,7 +64,7 @@ class CfgWorlds
     };
    
     class DefaultLighting;
-	class alpine: CAWorld
+	class YOUR_PROJECT_NAME: CAWorld
 	{
 		class DefaultClutter;
 		#include "cfgClutter.hpp"
@@ -1902,13 +1902,13 @@ class CfgWorlds
         terrainBlendMaxBrightenCoef = "0.15f";
 		access = 3;
 		worldId = 540;
-		cutscenes[] = {"alpine_intro1"};
-		description = "alpine";
-		//icon = "alpine\data\orcas_island.paa";
-		worldName = "\alpine\alpine.wrp";
+		cutscenes[] = {"YOUR_PROJECT_NAME_intro1"};
+		description = "YOUR_PROJECT_NAME";
+		//icon = "YOUR_PROJECT_NAME\data\orcas_island.paa";
+		worldName = "\YOUR_PROJECT_NAME\YOUR_PROJECT_NAME.wrp";
 		previewVideo = "";
-		//pictureMap = "alpine\data\pictureMap_ca.paa";
-		//pictureShot = "alpine\alpine_pic_ca.paa";
+		//pictureMap = "YOUR_PROJECT_NAME\data\pictureMap_ca.paa";
+		//pictureShot = "YOUR_PROJECT_NAME\YOUR_PROJECT_NAME_pic_ca.paa";
 		plateFormat = "A#$-####";
 		plateLetters = "ABCDEGHIKLMNOPRSTVXZ";
 		author = "daSh";
@@ -1941,11 +1941,11 @@ class CfgWorlds
             };
         };
 		
-		newRoadsShape = "\alpine\data\roads\roads.shp";
+		newRoadsShape = "\YOUR_PROJECT_NAME\data\roads\roads.shp";
 		
 		//class OutsideTerrain
 		//{
-		//	satellite = "alpine\data\alpine_satout_co.paa";
+		//	satellite = "YOUR_PROJECT_NAME\data\YOUR_PROJECT_NAME_satout_co.paa";
 		//	enableTerrainSynth = 1;
 		//	class Layers
 		//	{
@@ -2055,7 +2055,7 @@ class CfgWorlds
 		clutterDist = 300;		// How far clutter is visible
 		noDetailDist = 150;		// Where ground detail texture is no longer visible (end fading out)
 		fullDetailDist = 5;	// Distance where ground detail texture is fully visible (begin fading out)
-		midDetailTexture = "alpine\data\middle_mco.paa";
+		midDetailTexture = "YOUR_PROJECT_NAME\data\middle_mco.paa";
 		minTreesInForestSquare = 5;
 		minRocksInRockSquare = 4;
 		class Subdivision
@@ -2394,17 +2394,17 @@ class CfgWorlds
 		};
 		class Names
 		{
-			#include "alpine.hpp"
+			#include "YOUR_PROJECT_NAME.hpp"
 		
 		};
 		safePositionAnchor[] = {15667,15791.3};
 		safePositionRadius = 7000;
-		loadingTexts[] = {"alpine Island","Created by "};
+		loadingTexts[] = {"YOUR_PROJECT_NAME Island","Created by "};
 	};
 };
 class CfgWorldList
 {
-	class alpine {};
+	class YOUR_PROJECT_NAME {};
 };
 class CfgLensFlare
 {
