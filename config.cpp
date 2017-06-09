@@ -1,5 +1,7 @@
 #define _ARMA_
-
+//Author: 	daSh
+//Version: 	1.21
+// Just Change YOUR_PROJECT_NAME to your Project Folder Name ( P:\YourProjectFolder)
 //ndefs=13
 enum {
     destructengine = 2,
